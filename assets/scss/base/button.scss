@@ -1,0 +1,31 @@
+.form-email__button{
+  background: url("./images/button.png") no-repeat;
+  font-size: 20px;
+  width: 300px;
+  height: 70px;
+  color: #fff;
+  border-radius: $radius;
+  margin-top: 35px;
+  cursor: pointer;
+}
+.about-us__buttom{
+  background: transparent;
+  cursor: pointer;
+  border-radius: 100px;
+  height: 20px;
+  width: 50px;
+  margin-top: 250px;
+  margin-left: 270px;
+}
+.footer_footer{
+  background: #bf0f2e;
+  border: 1px solid #bf0f2e;
+  border-radius: $radius;
+  box-shadow: 1px 0px 20px 12px rgba(255, 255, 255, 0.36);
+  color: $color_main;
+  font-size: 24px;
+  width: 370px;
+  height: 90px;
+  margin-bottom: 20px;
+
+}

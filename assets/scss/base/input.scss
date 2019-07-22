@@ -1,0 +1,32 @@
+.form-email{
+
+  text-align: center;
+  display: table-caption;
+
+  .form-email__input{
+    background: transparent;
+    font-size: 18px;
+    border-bottom: 2px solid #5327ff;
+    margin-bottom: 10px;
+    color: $color_main;
+  }
+}
+.companents__form-email,
+.block-form__form-email{
+
+  text-align: center;
+  display: table-caption;
+  width: 500px;
+  padding-top: 70px;
+
+
+  .form-email__input{
+    background: transparent;
+    font-size: 18px;
+    border-bottom: 2px solid #5327ff;
+    color: $color_main;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+}

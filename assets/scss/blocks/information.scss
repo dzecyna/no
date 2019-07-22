@@ -1,0 +1,50 @@
+.information{
+
+  background: url("./images/information.png") no-repeat #000;
+  height: 940px;
+
+  .title{
+
+    padding-top: 120px;
+    margin-left: 100px;
+
+    h2{
+      color: #000;
+      font-family: $font_main;
+      font-size: 52px;
+    }
+
+    h3{
+      font-family: $font_main;
+      font-size: 86px;
+      margin-bottom: 0px;
+    }
+  }
+
+  .block-item{
+
+    width: 265px;
+    padding-top: 100px;
+    margin-left: 300px;
+
+    h2{
+      font-family: $font_main;
+      color: #000;
+      font-size: 48px;
+    }
+
+    h4{
+      color: #503c39;
+      font-family: $font_main;
+      font-size: 18px;
+      margin-bottom: 35px;
+    }
+
+    p{
+      font-size: 16px;
+      font-family: $font_main;
+      color: #000;
+      line-height: 1.7;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+.footer{
+  background: url("./images/footer.png") no-repeat #000;
+  height: 1250px;
+
+  .block-button{
+
+    float: right;
+    margin-top: 100px;
+
+    p{
+      text-align: center;
+      color: rgba(255, 255, 255, 0.82);
+    }
+  }
+
+  .contacts{
+    padding-top: 570px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+
+    .block-contacts{
+      width: 100px;
+      margin-right: 300px;
+      padding-top: 200px;
+
+      p{
+        font-size: $size_text;
+        color: rgba(255, 255, 255, 0.82);
+        margin-bottom: 30px;
+      }
+
+      h3{
+        font-size: $size_text;
+        font-family: $font_main;
+        margin-bottom: 10px;
+      }
+
+      a{
+        font-size: $size_text;
+        color: rgba(255, 255, 255, 0.68);
+        text-decoration: none;
+      }
+    }
+
+    .block-form{
+
+      p{
+        @include text;
+        font-size: 58px;
+      }
+
+      a{
+        @include title;
+        font-size: 101px;
+      }
+
+      .block-form__form-email{
+
+        a{
+          font-size: 16px;
+          color: #199dff;
+
+        }
+      }
+    }
+
+    .social-network {
+
+      text-align: right;
+
+      a {
+        display: inline-block;
+        background: url("./images/social.png");
+        width: 25px;
+        height: 25px;
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+      .facebooke{
+        background-position: -5px 0;
+      }
+      .instagram{
+        background-position: -43px 0;
+        width: 35px;
+      }
+      .twitter{
+        background-position: -90px 0;
+        width: 40px;
+      }
+    }
+  }
+}
