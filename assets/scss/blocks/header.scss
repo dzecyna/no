@@ -54,8 +54,8 @@
     background: url("./images/header.jpg") no-repeat;
     height: 830px;
 
-    -webkit-animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 5000ms both;
-    animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 5000ms both;
+    -webkit-animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 3000ms both;
+    animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 3000ms both;
 
     .content__information{
 
@@ -79,8 +79,10 @@
     background: url("./images/fon.png") no-repeat;
     height: 1050px;
 
-    -webkit-animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 5000ms both;
-    animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 5000ms both;
+    &.active{
+      -webkit-animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 1000ms both;
+      animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 1000ms both;
+    }
 
     .about-us__information{
 
@@ -119,8 +121,10 @@
     height: 850px;
     text-align: center;
 
-    -webkit-animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 5000ms both;
-    animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 5000ms both;
+    &.active{
+      -webkit-animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 1000ms both;
+      animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 1000ms both;
+    }
 
     .block{
       padding-top: 50px;

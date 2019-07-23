@@ -2,8 +2,10 @@
   background: url("./images/footer.png") no-repeat #000;
   height: 1250px;
 
-  -webkit-animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 5000ms both;
-  animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 5000ms both;
+  &.active{
+    -webkit-animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 1000ms both;
+    animation: fade-in-top 1000ms cubic-bezier(0.390, 0.575, 0.565, 1.000) 1000ms both;
+  }
 
   .block-button{
 
